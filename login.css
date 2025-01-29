@@ -1,0 +1,128 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.login-container h2 {
+    font-size: 2rem;
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+
+.login-container p {
+    font-size: 1.1rem;
+    color: #7F8C8D;
+    margin-bottom: 30px;
+}
+
+/* Login Form */
+.login-form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    width: 100%;
+}
+
+.login-form label {
+    font-size: 1rem;
+    color: #2C3E50;
+    margin-bottom: 8px;
+    display: block;
+    text-align: left;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+}
+
+.login-form input:focus {
+    outline: none;
+    border-color: #4A90E2;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #357ABD;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.forgot-password a {
+    color: #4A90E2;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .login-container {
+        padding: 20px;
+    }
+
+    .login-container h2 {
+        font-size: 1.6rem;
+    }
+
+    .login-form label {
+        font-size: 1rem;
+    }
+
+    .login-form input {
+        font-size: 1rem;
+    }
+
+    .login-btn {
+        font-size: 1.1rem;
+    }
+}

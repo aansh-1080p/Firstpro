@@ -1,0 +1,64 @@
+/* Help Section */
+.help-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 40px auto;
+    width: 90%;
+    max-width: 700px; /* Limit the maximum width */
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.help-section h3 {
+    font-size: 1.8rem;
+    color: #2C3E50;
+    margin-bottom: 20px;
+}
+
+.help-section p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.help-form label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.help-form input,
+.help-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.help-form textarea {
+    resize: vertical;
+}
+
+.help-form button {
+    background-color: #4A90E2; /* Primary Blue */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.help-form button:hover {
+    background-color: #357ABD; /* Darker blue on hover */
+}
